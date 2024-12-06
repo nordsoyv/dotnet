@@ -3,7 +3,7 @@ using Xunit.Abstractions;
 
 namespace Tests;
 
-public class DayTests(ITestOutputHelper testOutputHelper)
+public class Day1Tests(ITestOutputHelper testOutputHelper)
 {
     private readonly Fixture _fixture = new(testOutputHelper);
 
